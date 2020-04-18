@@ -2,4 +2,49 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/013/972/352/large/tommy-bishop-smurfvilliage-render-finish.jpg?1541904491');
+  background-size: 100%;
+}
+
+
+.smurfContainer{
+  background:  rgba(255,255,255,0.5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px;
+  padding: 3%;
+}
+.smurfCard{
+  border: 1px solid black;
+  margin: 2%;
+  padding: 0.4%;
+}
+
+.smurf-form{
+  background: rgba(135,206,205,0.5);
+  width: 700px;
+}
+
+.Wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+label{
+  padding: 1%;
+}
+
+.create{
+  background: darkcyan;
+  color: white;
+  font-size: 2rem;
+  padding: 3%;
+  margin: 5%;
+  border: 1px solid red;
+}
+
+.create:hover{
+  background: rgb(42, 230, 230);
 }
